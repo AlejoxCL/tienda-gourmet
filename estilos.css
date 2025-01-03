@@ -1,0 +1,18 @@
+/* Ejemplo de reglas básicas */
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  header h1 {
+    font-weight: bold;
+  }
+  
+  main h2 {
+    margin-top: 20px;
+    font-weight: 600;
+  }
+  
+  footer {
+    margin-top: 30px;
+  }
+  
