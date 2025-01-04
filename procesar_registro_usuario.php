@@ -1,6 +1,6 @@
 <?php
 // Conexión a la base de datos
-require_once 'conexion.php'; // archivo con la conexión (ver ejemplo más abajo)
+require_once 'conexion.php'; // archivo con la conexión (ver ejemplo más abajo
 
 // Recuperar datos del formulario
 $nombre    = $_POST['nombre'];
@@ -9,7 +9,7 @@ $password  = $_POST['password'];
 $direccion = $_POST['direccion'];
 $telefono  = $_POST['telefono'];
 
-// Importante: aplicar medidas de seguridad en la contraseña (hash, etc.)
+// Importante: aplicar medidas de seguridad en la contraseña (hash, etc.
 $passwordHash = password_hash($password, PASSWORD_DEFAULT);
 
 // Preparar la sentencia SQL
